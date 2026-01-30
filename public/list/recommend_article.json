@@ -1,0 +1,61 @@
+[
+  {
+    "id": "nce1",
+    "name": "新概念英語1",
+    "description": "第一冊《英語初階》講練基本語音、語調、語法、詞法、句法及句型結構，是練好英語基本功的關鍵。",
+    "category": "文章學習",
+    "tags": [
+      "新概念英語"
+    ],
+    "url": "NCE_1.json",
+    "length": 72,
+    "translateLanguage": "common",
+    "language": "en",
+    "cover": "/imgs/covers/nce-1.png"
+  },
+  {
+    "id": "nce2",
+    "name": "新概念英語2",
+    "description": "第二冊《實踐與進步》由淺入深，透過96篇幽默短文的學習，學習者將能在聽、說、讀、寫四個維度全面實踐英語；培養英文語感、糾正發音和培養自然語調；掌握歸納總結、造句及書寫簡單私人信件的能力。",
+    "category": "文章學習",
+    "tags": [
+      "新概念英語"
+    ],
+    "url": "NCE_2.json",
+    "length": 96,
+    "translateLanguage": "common",
+    "language": "en",
+    "update": false,
+    "cover": "/imgs/covers/nce-2.png"
+  },
+  {
+    "id": "nce3",
+    "name": "新概念英語3",
+    "description": "從第三冊《培養技能》開始，文章更加註重分析句子之間內在的邏輯關係，並進一步擴充講解詞彙、語法及句型的實戰運用。透過這一冊的學習，學員們聽、說、讀、寫的能力有一個新的飛躍，能夠熟練地表達和使用英語。",
+    "category": "文章學習",
+    "tags": [
+      "新概念英語"
+    ],
+    "url": "NCE_3.json",
+    "length": 60,
+    "translateLanguage": "common",
+    "language": "en",
+    "update": false,
+    "cover": "/imgs/covers/nce-3.png"
+  },
+  {
+    "id": "nce4",
+    "name": "新概念英語4",
+    "description": "第四冊《流利英語》,涵蓋了文化、經濟、哲學、藝術、體育、政治等三十多個學科門類，語言文字精美獨到，句型結構複雜多變而又地道酣暢，適用於有志於進一步深入學習和掌握英語到遊刃有餘的境界的同學。學完四冊的同學可以輕鬆閱讀英文報刊與文學作品 ，加以適當實戰，語言能力足以勝任歐美的生活和工作。",
+    "category": "文章學習",
+    "tags": [
+      "新概念英語"
+    ],
+    "url": "NCE_4.json",
+    "length": 48,
+    "translateLanguage": "common",
+    "language": "en",
+    "update": false,
+    "cover": "/imgs/covers/nce-4.png"
+  }
+]

@@ -1,0 +1,3239 @@
+[
+  {
+    "id": "cet4",
+    "name": "CET-4",
+    "description": "大學英語四級詞庫",
+    "category": "中國考試",
+    "tags": [
+      "大學英語"
+    ],
+    "url": "CET4_T.json",
+    "length": 2607,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "cet6",
+    "name": "CET-6",
+    "description": "大學英語六級詞庫",
+    "category": "中國考試",
+    "tags": [
+      "大學英語"
+    ],
+    "url": "CET6_T.json",
+    "length": 2345,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "xinghuoqiaoji_4",
+    "name": "四級巧記速記",
+    "description": "四級巧記速記",
+    "category": "中國考試",
+    "tags": [
+      "大學英語"
+    ],
+    "url": "xinghuoqiaoji_4.json",
+    "length": 2522,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "xinghuoqiaoji_6",
+    "name": "六級巧記速記",
+    "description": "六級巧記速記",
+    "category": "中國考試",
+    "tags": [
+      "大學英語"
+    ],
+    "url": "xinghuoqiaoji_6.json",
+    "length": 7520,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "cet4-sub",
+    "name": "CET-4-Sub",
+    "description": "單詞的減法-四級",
+    "category": "中國考試",
+    "tags": [
+      "大學英語"
+    ],
+    "url": "DanCiDeJianFa_4.json",
+    "length": 1957,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "cet6-sub",
+    "name": "CET-6-Sub",
+    "description": "單詞的減法-六級",
+    "category": "中國考試",
+    "tags": [
+      "大學英語"
+    ],
+    "url": "DanCiDeJianFa_6.json",
+    "length": 1949,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "kaoyan",
+    "name": "考研",
+    "description": "研究生英語入學考試詞庫",
+    "category": "中國考試",
+    "tags": [
+      "考研"
+    ],
+    "url": "KaoYan_3_T.json",
+    "length": 3728,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "kaoyan_2024",
+    "name": "考研 2024",
+    "description": "研究生英語入學考試詞庫 2024",
+    "category": "中國考試",
+    "tags": [
+      "考研"
+    ],
+    "url": "KaoYan_2024.json",
+    "length": 3731,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "kaoyanshanguo_2023",
+    "name": "考研閃過 2023",
+    "description": "高中低頻詞2023",
+    "category": "中國考試",
+    "tags": [
+      "考研"
+    ],
+    "url": "KaoYanShanGuo_2023.json",
+    "length": 1771,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "926",
+    "name": "考研926詞彙",
+    "description": "926核心詞彙",
+    "category": "中國考試",
+    "tags": [
+      "考研"
+    ],
+    "url": "926.json",
+    "length": 926,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "dancimimi_1",
+    "name": "單詞的秘密-英語一",
+    "description": "單詞的秘密英語（一）",
+    "category": "中國考試",
+    "tags": [
+      "考研"
+    ],
+    "url": "DanCiDeMimi_1.json",
+    "length": 5657,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "dancimimi_2",
+    "name": "單詞的秘密-英語二",
+    "description": "單詞的秘密英語（二）",
+    "category": "中國考試",
+    "tags": [
+      "考研"
+    ],
+    "url": "DanCiDeMimi_2.json",
+    "length": 3827,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "2024HongBao T1",
+    "name": "2024考研英語hongbaoshu(上)",
+    "description": "2024考研英語hongbaoshu必考詞（上）",
+    "category": "中國考試",
+    "tags": [
+      "考研"
+    ],
+    "url": "2024HongBao_T1.json",
+    "length": 997,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "2024HongBao T2",
+    "name": "2024考研英語hongbaoshu(下)",
+    "description": "2024考研英語hongbaoshu必考詞（下）",
+    "category": "中國考試",
+    "tags": [
+      "考研"
+    ],
+    "url": "2024HongBao_T2.json",
+    "length": 854,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "hongbaoshu-2026",
+    "name": "2026考研英語 hongbaoshu",
+    "description": "2026 考研詞彙 (必考詞+基礎詞+超綱詞）",
+    "category": "中國考試",
+    "tags": [
+      "考研"
+    ],
+    "url": "hongbaoshu-2026.json",
+    "length": 4858,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "English_II",
+    "name": "英語二單詞書",
+    "description": "考研英語二單詞書",
+    "category": "中國考試",
+    "tags": [
+      "考研"
+    ],
+    "url": "English_II.json",
+    "length": 4559,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "kaoyanshanguo2025",
+    "name": "考研 shanguo 2025",
+    "description": "考研 shanguo 2025",
+    "category": "中國考試",
+    "tags": [
+      "考研"
+    ],
+    "url": "kaoyanshanguo2025.json",
+    "length": 2257,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "level4",
+    "name": "專四",
+    "description": "英語專業四級詞庫",
+    "category": "中國考試",
+    "tags": [
+      "大學英語"
+    ],
+    "url": "Level4luan_2_T.json",
+    "length": 4025,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "level8",
+    "name": "專八",
+    "description": "英語專業八級詞庫",
+    "category": "中國考試",
+    "tags": [
+      "大學英語"
+    ],
+    "url": "Level8luan_2_T.json",
+    "length": 12197,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "pets3",
+    "name": "PETS",
+    "description": "全國英語等級考試常考詞彙",
+    "category": "中國考試",
+    "tags": [
+      "PET"
+    ],
+    "url": "PETS_3.json",
+    "length": 1942,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "pets3-2023",
+    "name": "PETS-2023",
+    "description": "全國英語等級考試常考詞彙",
+    "category": "中國考試",
+    "tags": [
+      "PET"
+    ],
+    "url": "PETS3-2023.json",
+    "length": 4449,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "self-study_English1",
+    "name": "自考1800高頻單詞",
+    "description": "自考1800高頻單詞",
+    "category": "中國考試",
+    "tags": [
+      "自考英語二"
+    ],
+    "url": "self-study_English1.json",
+    "length": 1800,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "self-study_English2",
+    "name": "自考英語二高頻悠悠單詞",
+    "description": "自考英語二高頻悠悠單詞",
+    "category": "中國考試",
+    "tags": [
+      "自考英語二"
+    ],
+    "url": "self-study_English2.json",
+    "length": 2181,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "self-study_English3",
+    "name": "自考英語二完整單詞",
+    "description": "00015自考英語二完整單詞書",
+    "category": "中國考試",
+    "tags": [
+      "自考英語二"
+    ],
+    "url": "self-study_English3.json",
+    "length": 4603,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "4000_Essential_English_Words1",
+    "name": "Essential Words",
+    "description": "4000 Essential English Words meaning",
+    "category": "中國考試",
+    "tags": [
+      "其他"
+    ],
+    "url": "4000_Essential_English_Words-meaning.json",
+    "length": 3600,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "4000_Essential_English_Words2",
+    "name": "Essential Words",
+    "description": "4000 Essential English Words sentence",
+    "category": "中國考試",
+    "tags": [
+      "其他"
+    ],
+    "url": "4000_Essential_English_Words-sentence.json",
+    "length": 3600,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "longman_communication_3000_words",
+    "name": "Longman Communication 3000",
+    "description": "Most frequent words in both spoken and written English",
+    "category": "中國考試",
+    "tags": [
+      "其他"
+    ],
+    "url": "Longman_Communication_3000.json",
+    "length": 3168,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "top_2000_English_Words",
+    "name": "Top 2000 words",
+    "description": "with highest frequency",
+    "category": "中國考試",
+    "tags": [
+      "其他"
+    ],
+    "url": "top2000words.json",
+    "length": 1867,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "top_1500_nouns_Words",
+    "name": "Top 1500 Nouns",
+    "description": "with highest frequency",
+    "category": "中國考試",
+    "tags": [
+      "其他"
+    ],
+    "url": "Top1500NounWords.json",
+    "length": 1525,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "top_1000_verb_Words",
+    "name": "Top 1000 Verbs",
+    "description": "with highest frequency",
+    "category": "中國考試",
+    "tags": [
+      "其他"
+    ],
+    "url": "Top1000VerbWords.json",
+    "length": 1011,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "top_500_Adj_Words",
+    "name": "Top 500 adj.",
+    "description": "with highest frequency",
+    "category": "中國考試",
+    "tags": [
+      "其他"
+    ],
+    "url": "Top500AdjectiveWords.json",
+    "length": 527,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "top_250_Adv_Words",
+    "name": "Top 250 adv.",
+    "description": "with highest frequency",
+    "category": "中國考試",
+    "tags": [
+      "其他"
+    ],
+    "url": "Top250AdverbWords.json",
+    "length": 255,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "top_60_Pronouns",
+    "name": "Top 60 pron.",
+    "description": "with highest frequency",
+    "category": "中國考試",
+    "tags": [
+      "其他"
+    ],
+    "url": "Top60Pronouns.json",
+    "length": 59,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "top_50_Prepositions",
+    "name": "Top 50 prep.",
+    "description": "with highest frequency",
+    "category": "中國考試",
+    "tags": [
+      "其他"
+    ],
+    "url": "Top50Prepositions.json",
+    "length": 46,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "suffix word",
+    "name": "suffix word",
+    "description": "common suffix",
+    "category": "中國考試",
+    "tags": [
+      "其他"
+    ],
+    "url": "suffix_word.json",
+    "length": 126,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "word roots1",
+    "name": "word roots1",
+    "description": "common roots",
+    "category": "中國考試",
+    "tags": [
+      "其他"
+    ],
+    "url": "word_roots1.json",
+    "length": 369,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "adult self-study examination",
+    "name": "專升本詞彙",
+    "description": "專升本詞彙",
+    "category": "中國考試",
+    "tags": [
+      "其他"
+    ],
+    "url": "adult-self-study-examination.json",
+    "length": 3692,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "zhuan-cha-ben-ying-yu",
+    "name": "專插本英語詞彙",
+    "description": "專插本英語詞彙",
+    "category": "中國考試",
+    "tags": [
+      "其他"
+    ],
+    "url": "zhuan-cha-ben.json",
+    "length": 3216,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "zhuan-sheng-ben-xue-shi",
+    "name": "專升本學士學位的英語",
+    "description": "專升本學士學位的英語",
+    "category": "中國考試",
+    "tags": [
+      "其他"
+    ],
+    "url": "xueshiyingyu.json",
+    "length": 897,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "Oxford5000",
+    "name": "牛津5000詞",
+    "description": "牛津5000詞",
+    "category": "中國考試",
+    "tags": [
+      "其他"
+    ],
+    "url": "Oxford5000.json",
+    "length": 5836,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "Merriam_Webster_sVocabularyBuilder",
+    "name": "韋氏詞根詞典",
+    "description": "韋氏詞根詞典",
+    "category": "中國考試",
+    "tags": [
+      "其他"
+    ],
+    "url": "Merriam_Webster_sVocabularyBuilder.json",
+    "length": 1191,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "tingshuokaoshi",
+    "name": "聽說考試常見詞彙",
+    "description": "聽說考試16個場景常見詞彙量",
+    "category": "中國考試",
+    "tags": [
+      "其他"
+    ],
+    "url": "tingshuokaoshi.json",
+    "length": 556,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "TOEFL_ZhangHongYan",
+    "name": "ZhangHongYan的TOEFL詞彙書",
+    "description": "ZhangHongYan的TOEFL詞彙書-詞以類記",
+    "category": "國際考試",
+    "tags": [
+      "TOEFL"
+    ],
+    "url": "TOEFL_ZhangHongYan.json",
+    "length": 4032,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "2025KaoYanHongBaoShu",
+    "name": "2025考研英語詞彙hongbao書",
+    "description": "2025考研英語詞彙hongbao書",
+    "category": "中國考試",
+    "tags": [
+      "考研"
+    ],
+    "url": "2025KaoYanHongBaoShu.json",
+    "length": 6705,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "3000_ClassRoom_English_Words",
+    "name": "專升本3000詞",
+    "description": "專升本詞彙",
+    "category": "中國考試",
+    "tags": [
+      "大學英語"
+    ],
+    "url": "3000_ClassRoom_English_Words.json",
+    "length": 2991,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "frequently_used_words01",
+    "name": "超頻單詞level 1",
+    "description": "超頻單詞level 1",
+    "category": "中國考試",
+    "tags": [
+      "其他"
+    ],
+    "url": "frequently_used_word01.json",
+    "length": 679,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "frequently_used_words03",
+    "name": "超頻單詞level 2",
+    "description": "超頻單詞level 2",
+    "category": "中國考試",
+    "tags": [
+      "其他"
+    ],
+    "url": "frequently_used_word02.json",
+    "length": 1040,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "frequently_used_words03",
+    "name": "超頻單詞level 3",
+    "description": "超頻單詞level 3",
+    "category": "中國考試",
+    "tags": [
+      "其他"
+    ],
+    "url": "frequently_used_word03.json",
+    "length": 1435,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "Macmillan7000",
+    "name": "麥克米倫7000",
+    "description": "麥克米倫7000",
+    "category": "中國考試",
+    "tags": [
+      "其他"
+    ],
+    "url": "Macmillan7000.json",
+    "length": 6268,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "coder",
+    "name": "Coder Dict",
+    "description": "程式設計師常見單詞詞庫",
+    "category": "程式碼練習",
+    "tags": [
+      "通用"
+    ],
+    "url": "it-words.json",
+    "length": 1700,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "itVocabulary",
+    "name": "計算機專用英語",
+    "description": "大學計算機專業英語詞彙",
+    "category": "程式碼練習",
+    "tags": [
+      "通用"
+    ],
+    "url": "itVocabulary.json",
+    "length": 1665,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "pet-2024",
+    "name": "PET-2024",
+    "description": "劍橋英語 - 2024",
+    "category": "國際考試",
+    "tags": [
+      "PET"
+    ],
+    "url": "pet-vacabulary-list-2024.json",
+    "length": 1871,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "gmat",
+    "name": "GMAT",
+    "description": "GMAT 詞庫",
+    "category": "國際考試",
+    "tags": [
+      "GMAT"
+    ],
+    "url": "GMAT_3_T.json",
+    "length": 3047,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "gre",
+    "name": "GRE",
+    "description": "GRE 詞庫",
+    "category": "國際考試",
+    "tags": [
+      "GRE"
+    ],
+    "url": "GRE_3_T.json",
+    "length": 6515,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "gre1500",
+    "name": "GRE重點1500詞-fen哥",
+    "description": "GRE & TEM8 重疊高頻詞彙",
+    "category": "國際考試",
+    "tags": [
+      "GRE"
+    ],
+    "url": "GRE_1500.json",
+    "length": 1533,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "gre3000",
+    "name": "GRE3000",
+    "description": "GRE3000 詞庫",
+    "category": "國際考試",
+    "tags": [
+      "GRE"
+    ],
+    "url": "GRE3000_3_T.json",
+    "length": 3041,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "GRE-computer-based-test",
+    "name": "GRE機經詞彙",
+    "description": "GRE機經詞彙",
+    "category": "國際考試",
+    "tags": [
+      "GRE"
+    ],
+    "url": "GRE-computer-based-test.json",
+    "length": 1451,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "ZaiYaoNiMing_GRE3000",
+    "name": "再要你命GRE3000",
+    "description": "再要你命GRE3000詞庫-有詞性新版",
+    "category": "國際考試",
+    "tags": [
+      "GRE"
+    ],
+    "url": "ZaiYaoNiMing_GRE3000.json",
+    "length": 3041,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "GRE_equivalent",
+    "name": "GRE等價詞",
+    "description": "GRE等價詞",
+    "category": "國際考試",
+    "tags": [
+      "GRE"
+    ],
+    "url": "GRE_equivalent.json",
+    "length": 827,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "GRE_ciyileiji",
+    "name": "GRE詞以類記",
+    "description": "GRE詞以類記",
+    "category": "國際考試",
+    "tags": [
+      "GRE"
+    ],
+    "url": "gre-ciyileiji.json",
+    "length": 8785,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "IELTS_tinglichangjing",
+    "name": "雅思聽力場景詞彙",
+    "description": "雅思聽力場景詞彙",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "IELTS_tinglichangjing.json",
+    "length": 1204,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "ielts_disorder",
+    "name": "IELTS亂序完整版",
+    "description": "IELTS亂序完整版",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "IELTS_disorder.json",
+    "length": 9389,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "ielts_order",
+    "name": "IELTS順序完整版",
+    "description": "IELTS順序完整版",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "IELTS_order.json",
+    "length": 9389,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "ielts",
+    "name": "IELTS",
+    "description": "雅思詞庫",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "IELTS_3_T.json",
+    "length": 3575,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "heqiong",
+    "name": "heQiong雅思聽力必考詞彙",
+    "description": "綜合測試",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "HeQiong_IELTS.json",
+    "length": 2529,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "ieltsWang3",
+    "name": "雅思wang C3",
+    "description": "雅思聽力特別名詞語料庫",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "IELTS_WANG_3.json",
+    "length": 1135,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "ieltsWang4",
+    "name": "雅思wang C4",
+    "description": "雅思聽力形容詞副詞語料庫",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "IELTS_WANG_4.json",
+    "length": 346,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "ieltsWang5",
+    "name": "雅思wang C5",
+    "description": "吞音連讀混合訓練語料庫",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "IELTS_WANG_5.json",
+    "length": 1569,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "ieltsWang11",
+    "name": "雅思wang C11",
+    "description": "綜合測試",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "IELTS_WANG_11.json",
+    "length": 1738,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "DuckCircle_IELTS",
+    "name": "鴨圈雅思核心詞",
+    "description": "鴨圈雅思核心詞",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "DuckCircle_IELTS.json",
+    "length": 2644,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "IELTSVocabularyBible",
+    "name": "雅思詞彙真經",
+    "description": "雅思詞彙真經",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "IELTSVocabularyBible.json",
+    "length": 3673,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "IELTS-807",
+    "name": "雅思 wanglu 807",
+    "description": "雅思 wanglu 807",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "ielts-807.json",
+    "length": 4340,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "ielts-real-high",
+    "name": "雅思 real 詞彙 高頻",
+    "description": "雅思 real 詞彙（高頻詞彙）",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "ielts-real-high.json",
+    "length": 524,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "ielts-real-5",
+    "name": "雅思 real 詞彙 5",
+    "description": "雅思 real 詞彙 （5頻詞彙及變頻）",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "ielts-real-5.json",
+    "length": 183,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "ielts-real-4",
+    "name": "雅思 real 詞彙 4",
+    "description": "雅思 real 詞彙 （4頻詞彙及變頻）",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "ielts-real-4.json",
+    "length": 201,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "ielts-real-3",
+    "name": "雅思 real 詞彙 3",
+    "description": "雅思 real 詞彙 （3頻詞彙及變頻）",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "ielts-real-3.json",
+    "length": 256,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "ielts-real-2",
+    "name": "雅思 real 詞彙 2",
+    "description": "雅思 real 詞彙 （2頻詞彙及變頻）",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "ielts-real-2.json",
+    "length": 402,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "ielts-real-1",
+    "name": "雅思 real 詞彙 1",
+    "description": "雅思 real 詞彙 （1頻詞彙及變頻）",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "ielts-real-1.json",
+    "length": 737,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "IELTSKingLu807",
+    "name": "wanglu807雅思詞彙聽力第2版",
+    "description": "wanglu807雅思詞彙聽力第2版",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "IELTSKingLu807.json",
+    "length": 1916,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "IELTSXDF7000",
+    "name": "100個句子記完7000個雅思單詞",
+    "description": "xdf 100個句子記完7000個雅思單詞 詞彙表",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "IELTS_XDF_7000.json",
+    "length": 5567,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "IELTS-oral-900",
+    "name": "雅思口語 900 beta版",
+    "description": "雅思口語 900 句, 需在 qwerty 設定中調小英語字型",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "IELTS-oral-900.json",
+    "length": 900,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "IELTS-listening-NeworientalDirect-Task1",
+    "name": "xdf聽力 雅思中級直通車 day1",
+    "description": "xdf聽力 雅思中級直通車 day1",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "IELTS-listening-NewOrientalDirect-Task1.json",
+    "length": 44,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "IELTS-listening-NeworientalDirect-Task2",
+    "name": "xdf聽力 雅思中級直通車 day2",
+    "description": "xdf聽力 雅思中級直通車 day2",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "IELTS-listening-NewOrientalDirect-Task2.json",
+    "length": 33,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "IELTS-listening-NeworientalDirect-Task3",
+    "name": "xdf聽力 雅思中級直通車 day3",
+    "description": "xdf聽力 雅思中級直通車 day3",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "IELTS-listening-NewOrientalDirect-Task3.json",
+    "length": 33,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "IELTS-listening-NeworientalDirect-Task4",
+    "name": "xdf聽力 雅思中級直通車 day4",
+    "description": "xdf聽力 雅思中級直通車 day4",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "IELTS-listening-NewOrientalDirect-Task4.json",
+    "length": 33,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "IELTS-listening-NeworientalDirect-Task5",
+    "name": "xdf聽力 雅思中級直通車 day5",
+    "description": "xdf聽力 雅思中級直通車 day5",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "IELTS-listening-NewOrientalDirect-Task5.json",
+    "length": 38,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "IELTS-listening-NeworientalDirect-Task6",
+    "name": "xdf聽力 雅思中級直通車 day6",
+    "description": "xdf聽力 雅思中級直通車 day6",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "IELTS-listening-NewOrientalDirect-Task6.json",
+    "length": 33,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "IELTS-listening-NeworientalDirect-Task7",
+    "name": "xdf聽力 雅思中級直通車 day7",
+    "description": "xdf聽力 雅思中級直通車 day7",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "IELTS-listening-NewOrientalDirect-Task7.json",
+    "length": 39,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "IELTS-listening-NeworientalDirect-Task8",
+    "name": "xdf聽力 雅思中級直通車 day8",
+    "description": "xdf聽力 雅思中級直通車 day8",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "IELTS-listening-NewOrientalDirect-Task8.json",
+    "length": 32,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "IELTS-listening-NeworientalDirect-Task9",
+    "name": "xdf聽力 雅思中級直通車 day9",
+    "description": "xdf聽力 雅思中級直通車 day9",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "IELTS-listening-NewOrientalDirect-Task9.json",
+    "length": 46,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "IELTS-listening-NeworientalDirect-Task10",
+    "name": "xdf聽力 雅思中級直通車 day10",
+    "description": "xdf聽力 雅思中級直通車 day10",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "IELTS-listening-NewOrientalDirect-Task10.json",
+    "length": 44,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "IELTS-listening-NeworientalDirect-Task11",
+    "name": "xdf聽力 雅思中級直通車 day11",
+    "description": "xdf聽力 雅思中級直通車 day11",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "IELTS-listening-NewOrientalDirect-Task11.json",
+    "length": 36,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "IELTS-listening-NeworientalDirect-Task12",
+    "name": "xdf聽力 雅思中級直通車 day12",
+    "description": "xdf聽力 雅思中級直通車 day12",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "IELTS-listening-NewOrientalDirect-Task12.json",
+    "length": 45,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "IELTS-listening-NeworientalDirect-Task13",
+    "name": "xdf聽力 雅思中級直通車 day13",
+    "description": "xdf聽力 雅思中級直通車 day13",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "IELTS-listening-NewOrientalDirect-Task13.json",
+    "length": 49,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "IELTS-listening-NeworientalDirect-Task14",
+    "name": "xdf聽力 雅思中級直通車 day14",
+    "description": "xdf聽力 雅思中級直通車 day14",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "IELTS-listening-NewOrientalDirect-Task14.json",
+    "length": 46,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "IELTS-listening-NeworientalDirect-Task15",
+    "name": "xdf聽力 雅思中級直通車 day15",
+    "description": "xdf聽力 雅思中級直通車 day15",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "IELTS-listening-NewOrientalDirect-Task15.json",
+    "length": 29,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "IELTS-listening-NeworientalDirect-Task16",
+    "name": "xdf聽力 雅思中級直通車 day16",
+    "description": "xdf聽力 雅思中級直通車 day16",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "IELTS-listening-NewOrientalDirect-Task16.json",
+    "length": 42,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "IELTS-listening-NeworientalDirect-Task17",
+    "name": "xdf聽力 雅思中級直通車 day17",
+    "description": "xdf聽力 雅思中級直通車 day17",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "IELTS-listening-NewOrientalDirect-Task17.json",
+    "length": 22,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "IELTS-listening-NeworientalDirect-Task18",
+    "name": "xdf聽力 雅思中級直通車 day18",
+    "description": "xdf聽力 雅思中級直通車 day18",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "IELTS-listening-NewOrientalDirect-Task18.json",
+    "length": 37,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "IELTS-listening-NeworientalDirect-Task19",
+    "name": "xdf聽力 雅思中級直通車 day19",
+    "description": "xdf聽力 雅思中級直通車 day19",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "IELTS-listening-NewOrientalDirect-Task19.json",
+    "length": 26,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "IELTS-listening-18-days-1",
+    "name": "雅思聽力詞彙18天 day1",
+    "description": "雅思聽力詞彙18天 day1",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "IELTS-listening-18days-day1.json",
+    "length": 74,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "IELTS-listening-18-days-2",
+    "name": "雅思聽力詞彙18天 day2",
+    "description": "雅思聽力詞彙18天 day2",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "IELTS-listening-18days-day2.json",
+    "length": 77,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "IELTS-listening-18-days-3",
+    "name": "雅思聽力詞彙18天 day3",
+    "description": "雅思聽力詞彙18天 day3",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "IELTS-listening-18days-day3.json",
+    "length": 77,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "IELTS-listening-18-days-4",
+    "name": "雅思聽力詞彙18天 day4",
+    "description": "雅思聽力詞彙18天 day4",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "IELTS-listening-18days-day4.json",
+    "length": 73,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "IELTS-listening-18-days-5",
+    "name": "雅思聽力詞彙18天 day5",
+    "description": "雅思聽力詞彙18天 day5",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "IELTS-listening-18days-day5.json",
+    "length": 76,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "IELTS-listening-18-days-6",
+    "name": "雅思聽力詞彙18天 day6",
+    "description": "雅思聽力詞彙18天 day6",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "IELTS-listening-18days-day6.json",
+    "length": 77,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "IELTS-listening-18-days-7",
+    "name": "雅思聽力詞彙18天 day7",
+    "description": "雅思聽力詞彙18天 day7",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "IELTS-listening-18days-day7.json",
+    "length": 75,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "IELTS-listening-18-days-8",
+    "name": "雅思聽力詞彙18天 day8",
+    "description": "雅思聽力詞彙18天 day8",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "IELTS-listening-18days-day8.json",
+    "length": 75,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "IELTS-listening-18-days-9",
+    "name": "雅思聽力詞彙18天 day9",
+    "description": "雅思聽力詞彙18天 day9",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "IELTS-listening-18days-day9.json",
+    "length": 76,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "IELTS-listening-18-days-10",
+    "name": "雅思聽力詞彙18天 day10",
+    "description": "雅思聽力詞彙18天 day10",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "IELTS-listening-18days-day10.json",
+    "length": 33,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "IELTS-listening-18-days-11",
+    "name": "雅思聽力詞彙18天 day11",
+    "description": "雅思聽力詞彙18天 day11",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "IELTS-listening-18days-day11.json",
+    "length": 52,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "IELTS-listening-18-days-12",
+    "name": "雅思聽力詞彙18天 day12",
+    "description": "雅思聽力詞彙18天 day12",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "IELTS-listening-18days-day12.json",
+    "length": 77,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "IELTS-listening-18-days-13",
+    "name": "雅思聽力詞彙18天 day13",
+    "description": "雅思聽力詞彙18天 day13",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "IELTS-listening-18days-day13.json",
+    "length": 78,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "IELTS-listening-18-days-14",
+    "name": "雅思聽力詞彙18天 day14",
+    "description": "雅思聽力詞彙18天 day14",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "IELTS-listening-18days-day14.json",
+    "length": 76,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "IELTS-listening-18-days-15",
+    "name": "雅思聽力詞彙18天 day15",
+    "description": "雅思聽力詞彙18天 day15",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "IELTS-listening-18days-day15.json",
+    "length": 77,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "IELTS-listening-18-days-16",
+    "name": "雅思聽力詞彙18天 day16",
+    "description": "雅思聽力詞彙18天 day16",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "IELTS-listening-18days-day16.json",
+    "length": 77,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "IELTS-listening-18-days-17",
+    "name": "雅思聽力詞彙18天 day17",
+    "description": "雅思聽力詞彙18天 day17",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "IELTS-listening-18days-day17.json",
+    "length": 46,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "IELTS-listening-18-days-18",
+    "name": "雅思聽力詞彙18天 day18",
+    "description": "雅思聽力詞彙18天 day18",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "IELTS-listening-18days-day18.json",
+    "length": 76,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "ket",
+    "name": "KET",
+    "description": "KET 2021單詞",
+    "category": "國際考試",
+    "tags": [
+      "KET"
+    ],
+    "url": "ket2021.json",
+    "length": 1147,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "sat",
+    "name": "SAT",
+    "description": "美國 SAT 考試詞庫",
+    "category": "國際考試",
+    "tags": [
+      "SAT"
+    ],
+    "url": "SAT_3_T.json",
+    "length": 4464,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "SATen",
+    "name": "SAT en-en",
+    "description": "SAT英英",
+    "category": "國際考試",
+    "tags": [
+      "SAT"
+    ],
+    "url": "SATen.json",
+    "length": 2681,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "toefl",
+    "name": "TOEFL",
+    "description": "托福考試常見詞",
+    "category": "國際考試",
+    "tags": [
+      "TOEFL"
+    ],
+    "url": "TOEFL_3_T.json",
+    "length": 4264,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "bec2",
+    "name": "商務英語",
+    "description": "商務英語常見詞",
+    "category": "國際考試",
+    "tags": [
+      "BEC"
+    ],
+    "url": "BEC_2_T.json",
+    "length": 2753,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "bec3",
+    "name": "BEC",
+    "description": "BEC考試常見詞",
+    "category": "國際考試",
+    "tags": [
+      "BEC"
+    ],
+    "url": "BEC_3_T.json",
+    "length": 2825,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "PTE_junior",
+    "name": "PTE 基礎詞彙",
+    "description": "",
+    "category": "國際考試",
+    "tags": [
+      "PTE"
+    ],
+    "url": "PTE_junior.json",
+    "length": 2651,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "PTE_senior",
+    "name": "PTE 高階詞彙",
+    "description": "",
+    "category": "國際考試",
+    "tags": [
+      "PTE"
+    ],
+    "url": "PTE_senior.json",
+    "length": 3170,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "PTE_FIB_R_junior",
+    "name": "閱讀 FIB 基礎機經詞彙",
+    "description": "",
+    "category": "國際考試",
+    "tags": [
+      "PTE"
+    ],
+    "url": "PTE_FIB_R_junior.json",
+    "length": 941,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "PTE_FIB_R_senior",
+    "name": "閱讀 FIB 高階機經詞彙",
+    "description": "",
+    "category": "國際考試",
+    "tags": [
+      "PTE"
+    ],
+    "url": "PTE_FIB_R_senior.json",
+    "length": 1272,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "PTE_WFD",
+    "name": "WFD 機經詞彙",
+    "description": "",
+    "category": "國際考試",
+    "tags": [
+      "PTE"
+    ],
+    "url": "PTE_WFD.json",
+    "length": 1212,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "PTE_FIB_L",
+    "name": "聽力 FIB 機經詞彙",
+    "description": "",
+    "category": "國際考試",
+    "tags": [
+      "PTE"
+    ],
+    "url": "PTE_FIB_L.json",
+    "length": 646,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "PTE_Basic_apeuni",
+    "name": "PTE 基礎詞彙 xingji",
+    "description": "",
+    "category": "國際考試",
+    "tags": [
+      "PTE"
+    ],
+    "url": "PTE_Basic_apeuni.json",
+    "length": 2652,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "PTE_Advanced_apeuni.json",
+    "name": "PTE 高階詞彙 xingji",
+    "description": "",
+    "category": "國際考試",
+    "tags": [
+      "PTE"
+    ],
+    "url": "PTE_Advanced_apeuni.json",
+    "length": 3169,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "PTE_Read_apeuni.json",
+    "name": "PTE 閱讀FIB機經詞彙 xingji",
+    "description": "",
+    "category": "國際考試",
+    "tags": [
+      "PTE"
+    ],
+    "url": "PTE_Read_apeuni.json",
+    "length": 630,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "PTE_Listening_apeuni.json",
+    "name": "PTE 聽力FIB機經詞彙 xingji",
+    "description": "",
+    "category": "國際考試",
+    "tags": [
+      "PTE"
+    ],
+    "url": "PTE_Listening_apeuni.json",
+    "length": 674,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "TOEIC",
+    "name": "TOEIC 詞彙",
+    "description": "",
+    "category": "國際考試",
+    "tags": [
+      "TOEIC"
+    ],
+    "url": "TOEIC.json",
+    "length": 1694,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "Duolingo_Vocabulary_B1",
+    "name": "多鄰國分級詞彙B1",
+    "description": "多鄰國分級詞彙B1",
+    "category": "國際考試",
+    "tags": [
+      "CEFR"
+    ],
+    "url": "Duolingo_Vocabulary_B1.json",
+    "length": 801,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "Duolingo_Vocabulary_B2",
+    "name": "多鄰國分級詞彙B2",
+    "description": "多鄰國分級詞彙B2",
+    "category": "國際考試",
+    "tags": [
+      "CEFR"
+    ],
+    "url": "Duolingo_Vocabulary_B2.json",
+    "length": 1423,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "Duolingo_Vocabulary_C1",
+    "name": "多鄰國分級詞彙C1",
+    "description": "多鄰國分級詞彙C1",
+    "category": "國際考試",
+    "tags": [
+      "CEFR"
+    ],
+    "url": "Duolingo_Vocabulary_C1.json",
+    "length": 1314,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "Oxford3000",
+    "name": "牛津3000詞",
+    "description": "牛津3000詞",
+    "category": "國際考試",
+    "tags": [
+      "牛津版"
+    ],
+    "url": "Oxford3000.json",
+    "length": 1342,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "Oxford5000",
+    "name": "牛津5000詞",
+    "description": "牛津5000詞",
+    "category": "國際考試",
+    "tags": [
+      "牛津版"
+    ],
+    "url": "Oxford5000.json",
+    "length": 5836,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "voa",
+    "name": "VOA 基礎詞庫",
+    "description": "VOA 基礎詞庫",
+    "category": "國際考試",
+    "tags": [
+      "其他"
+    ],
+    "url": "voa.json",
+    "length": 1505,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "Common-Phrases-PTE-Unofficial",
+    "name": "PTE 常用短語 (非官方)",
+    "description": "PTE 常用短語",
+    "category": "國際考試",
+    "tags": [
+      "PTE"
+    ],
+    "url": "Common-Phrases-PTE-Unofficial.json",
+    "length": 274,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "Common-Phrases-FCE-Unofficial",
+    "name": "FCE 常用短語 (非官方)",
+    "description": "FCE 常用短語",
+    "category": "國際考試",
+    "tags": [
+      "FCE"
+    ],
+    "url": "Common-Phrases-FCE-Unofficial.json",
+    "length": 438,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "gaokao3500",
+    "name": "高考 3500 詞",
+    "description": "高考常見詞 3500",
+    "category": "青少年英語",
+    "tags": [
+      "通用"
+    ],
+    "url": "GaoKao_3500.json",
+    "length": 3893,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "gaokaozhentihexin",
+    "name": "高考歷年真題核心高頻",
+    "description": "高考歷年真題核心高頻",
+    "category": "青少年英語",
+    "tags": [
+      "通用"
+    ],
+    "url": "GaoKaoZhenTiHeXinGaoPin.json",
+    "length": 799,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "gaokao-yuedu-gaopin",
+    "name": "高考英語閱讀高頻詞彙",
+    "description": "高考英語閱讀高頻詞彙",
+    "category": "青少年英語",
+    "tags": [
+      "通用"
+    ],
+    "url": "gaokao-yuedu-gaopin.json",
+    "length": 688,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "zhongkaohexin",
+    "name": "中考核心詞",
+    "description": "中考核心詞",
+    "category": "青少年英語",
+    "tags": [
+      "通用"
+    ],
+    "url": "ZhongKaoHeXin.json",
+    "length": 2140,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "nce-new-1",
+    "name": "新概念英語-1",
+    "description": "新概念英語第一冊",
+    "category": "青少年英語",
+    "tags": [
+      "新概念英語"
+    ],
+    "url": "nce-new-1.json",
+    "length": 908,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "nce-new-2",
+    "name": "新概念英語-2",
+    "description": "新概念英語第二冊",
+    "category": "青少年英語",
+    "tags": [
+      "新概念英語"
+    ],
+    "url": "nce-new-2.json",
+    "length": 862,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "nce-new-3",
+    "name": "新概念英語-3",
+    "description": "新概念英語第三冊",
+    "category": "青少年英語",
+    "tags": [
+      "新概念英語"
+    ],
+    "url": "nce-new-3.json",
+    "length": 1062,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "nce-new-4",
+    "name": "新概念英語-4",
+    "description": "新概念英語第四冊",
+    "category": "青少年英語",
+    "tags": [
+      "新概念英語"
+    ],
+    "url": "nce-new-4.json",
+    "length": 793,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "SHjuniormiddleOxford",
+    "name": "上海初中牛津詞彙",
+    "description": "上海初中牛津詞彙",
+    "category": "青少年英語",
+    "tags": [
+      "牛津版"
+    ],
+    "url": "OxfordVocabulary_juniorMiddleSH.json",
+    "length": 1270,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "san1",
+    "name": "三年級上",
+    "description": "人教版三年級上冊",
+    "category": "青少年英語",
+    "tags": [
+      "人教版"
+    ],
+    "url": "PEPXiaoXue3_1_T.json",
+    "length": 64,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "san2",
+    "name": "三年級下",
+    "description": "人教版三年級下冊",
+    "category": "青少年英語",
+    "tags": [
+      "人教版"
+    ],
+    "url": "PEPXiaoXue3_2_T.json",
+    "length": 72,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "si1",
+    "name": "四年級上",
+    "description": "人教版四年級上冊",
+    "category": "青少年英語",
+    "tags": [
+      "人教版"
+    ],
+    "url": "PEPXiaoXue4_1_T.json",
+    "length": 84,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "si2",
+    "name": "四年級下",
+    "description": "人教版四年級下冊",
+    "category": "青少年英語",
+    "tags": [
+      "人教版"
+    ],
+    "url": "PEPXiaoXue4_2_T.json",
+    "length": 104,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "wu1",
+    "name": "五年級上",
+    "description": "人教版五年級上冊",
+    "category": "青少年英語",
+    "tags": [
+      "人教版"
+    ],
+    "url": "PEPXiaoXue5_1_T.json",
+    "length": 131,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "wu2",
+    "name": "五年級下",
+    "description": "人教版五年級下冊",
+    "category": "青少年英語",
+    "tags": [
+      "人教版"
+    ],
+    "url": "PEPXiaoXue5_2_T.json",
+    "length": 156,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "liu1",
+    "name": "六年級上",
+    "description": "人教版六年級上冊",
+    "category": "青少年英語",
+    "tags": [
+      "人教版"
+    ],
+    "url": "PEPXiaoXue6_1_T.json",
+    "length": 130,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "liu2",
+    "name": "六年級下",
+    "description": "人教版六年級下冊",
+    "category": "青少年英語",
+    "tags": [
+      "人教版"
+    ],
+    "url": "PEPXiaoXue6_2_T.json",
+    "length": 108,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "pep-sl-yi1",
+    "name": "人教版(新起點)一年級上",
+    "description": "人教版一年級上冊",
+    "category": "青少年英語",
+    "tags": [
+      "人教版"
+    ],
+    "url": "PEP_SL_XiaoXue1_1_t.json",
+    "length": 52,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "pep-sl-yi2",
+    "name": "人教版(新起點)一年級下",
+    "description": "人教版一年級下冊",
+    "category": "青少年英語",
+    "tags": [
+      "人教版"
+    ],
+    "url": "PEP_SL_XiaoXue1_2_t.json",
+    "length": 45,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "pep-sl-er1",
+    "name": "人教版(新起點)二年級上",
+    "description": "人教版二年級上冊",
+    "category": "青少年英語",
+    "tags": [
+      "人教版"
+    ],
+    "url": "PEP_SL_XiaoXue2_1_t.json",
+    "length": 54,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "pep-sl-er2",
+    "name": "人教版(新起點)二年級下",
+    "description": "人教版二年級下冊",
+    "category": "青少年英語",
+    "tags": [
+      "人教版"
+    ],
+    "url": "PEP_SL_XiaoXue2_2_t.json",
+    "length": 55,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "pep-sl-san1",
+    "name": "人教版(新起點)三年級上",
+    "description": "人教版三年級上冊",
+    "category": "青少年英語",
+    "tags": [
+      "人教版"
+    ],
+    "url": "PEP_SL_XiaoXue3_1_t.json",
+    "length": 103,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "pep-sl-san2",
+    "name": "人教版(新起點)三年級下",
+    "description": "人教版三年級下冊",
+    "category": "青少年英語",
+    "tags": [
+      "人教版"
+    ],
+    "url": "PEP_SL_XiaoXue3_2_t.json",
+    "length": 84,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "pep-sl-si1",
+    "name": "人教版(新起點)四年級上",
+    "description": "人教版四年級上冊",
+    "category": "青少年英語",
+    "tags": [
+      "人教版"
+    ],
+    "url": "PEP_SL_XiaoXue4_1_t.json",
+    "length": 115,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "pep-sl-si2",
+    "name": "人教版(新起點)四年級下",
+    "description": "人教版四年級下冊",
+    "category": "青少年英語",
+    "tags": [
+      "人教版"
+    ],
+    "url": "PEP_SL_XiaoXue4_2_t.json",
+    "length": 87,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "pep-sl-wu1",
+    "name": "人教版(新起點)五年級上",
+    "description": "人教版五年級上冊",
+    "category": "青少年英語",
+    "tags": [
+      "人教版"
+    ],
+    "url": "PEP_SL_XiaoXue5_1_t.json",
+    "length": 66,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "pep-sl-wu2",
+    "name": "人教版(新起點)五年級下",
+    "description": "人教版五年級下冊",
+    "category": "青少年英語",
+    "tags": [
+      "人教版"
+    ],
+    "url": "PEP_SL_XiaoXue5_2_t.json",
+    "length": 96,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "pep-sl-liu1",
+    "name": "人教版(新起點)六年級上",
+    "description": "人教版六年級上冊",
+    "category": "青少年英語",
+    "tags": [
+      "人教版"
+    ],
+    "url": "PEP_SL_XiaoXue6_1_t.json",
+    "length": 102,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "pep-sl-liu2",
+    "name": "人教版(新起點)六年級下",
+    "description": "人教版六年級下冊",
+    "category": "青少年英語",
+    "tags": [
+      "人教版"
+    ],
+    "url": "PEP_SL_XiaoXue6_2_t.json",
+    "length": 41,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "qi1",
+    "name": "七年級上",
+    "description": "人教版七年級上冊",
+    "category": "青少年英語",
+    "tags": [
+      "人教版"
+    ],
+    "url": "PEPChuZhong7_1_T.json",
+    "length": 392,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "qi2",
+    "name": "七年級下",
+    "description": "人教版七年級下冊",
+    "category": "青少年英語",
+    "tags": [
+      "人教版"
+    ],
+    "url": "PEPChuZhong7_2_T.json",
+    "length": 492,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "ba1",
+    "name": "八年級上",
+    "description": "人教版八年級上冊",
+    "category": "青少年英語",
+    "tags": [
+      "人教版"
+    ],
+    "url": "PEPChuZhong8_1_T.json",
+    "length": 419,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "ba2",
+    "name": "八年級下",
+    "description": "人教版八年級下冊",
+    "category": "青少年英語",
+    "tags": [
+      "人教版"
+    ],
+    "url": "PEPChuZhong8_2_T.json",
+    "length": 466,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "jiu",
+    "name": "九年級",
+    "description": "人教版九年級全冊",
+    "category": "青少年英語",
+    "tags": [
+      "人教版"
+    ],
+    "url": "PEPChuZhong9_1_T.json",
+    "length": 551,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "renjiaogaozhong1",
+    "name": "高中必修1",
+    "description": "人教版高中必修1",
+    "category": "青少年英語",
+    "tags": [
+      "人教版"
+    ],
+    "url": "PEPGaoZhong_1_T.json",
+    "length": 311,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "renjiaogaozhong2",
+    "name": "高中必修2",
+    "description": "人教版高中必修2",
+    "category": "青少年英語",
+    "tags": [
+      "人教版"
+    ],
+    "url": "PEPGaoZhong_2_T.json",
+    "length": 319,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "renjiaogaozhong3",
+    "name": "高中必修3",
+    "description": "人教版高中必修3",
+    "category": "青少年英語",
+    "tags": [
+      "人教版"
+    ],
+    "url": "PEPGaoZhong_3_T.json",
+    "length": 366,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "renjiaogaozhong4",
+    "name": "高中必修4",
+    "description": "人教版高中必修4",
+    "category": "青少年英語",
+    "tags": [
+      "人教版"
+    ],
+    "url": "PEPGaoZhong_4_T.json",
+    "length": 307,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "renjiaogaozhong5",
+    "name": "高中必修5",
+    "description": "人教版高中必修5",
+    "category": "青少年英語",
+    "tags": [
+      "人教版"
+    ],
+    "url": "PEPGaoZhong_5_T.json",
+    "length": 357,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "renjiaogaozhong6",
+    "name": "高中選修6",
+    "description": "人教版高中選修6",
+    "category": "青少年英語",
+    "tags": [
+      "人教版"
+    ],
+    "url": "PEPGaoZhong_6_T.json",
+    "length": 391,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "renjiaogaozhong7",
+    "name": "高中選修7",
+    "description": "人教版高中選修7",
+    "category": "青少年英語",
+    "tags": [
+      "人教版"
+    ],
+    "url": "PEPGaoZhong_7_T.json",
+    "length": 384,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "renjiaogaozhong8",
+    "name": "高中選修8",
+    "description": "人教版高中選修8",
+    "category": "青少年英語",
+    "tags": [
+      "人教版"
+    ],
+    "url": "PEPGaoZhong_8_T.json",
+    "length": 420,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "renjiaogaozhong9",
+    "name": "高中選修9",
+    "description": "人教版高中選修9",
+    "category": "青少年英語",
+    "tags": [
+      "人教版"
+    ],
+    "url": "PEPGaoZhong_9_T.json",
+    "length": 352,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "renjiaogaozhong10",
+    "name": "高中選修10",
+    "description": "人教版高中選修10",
+    "category": "青少年英語",
+    "tags": [
+      "人教版"
+    ],
+    "url": "PEPGaoZhong_10_T.json",
+    "length": 361,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "renjiaogaozhong11",
+    "name": "高中選修11",
+    "description": "人教版高中選修11",
+    "category": "青少年英語",
+    "tags": [
+      "人教版"
+    ],
+    "url": "PEPGaoZhong_11_T.json",
+    "length": 309,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "waiyan1",
+    "name": "外研七年級上冊",
+    "description": "外研版七年級上冊",
+    "category": "青少年英語",
+    "tags": [
+      "外研版"
+    ],
+    "url": "WaiYanSheChuZhong_1_T.json",
+    "length": 629,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "new-waiyan1",
+    "name": "新外研七年級上冊",
+    "description": "新外研版七年級上冊",
+    "category": "青少年英語",
+    "tags": [
+      "外研版"
+    ],
+    "url": "Newwaiyan7-1.json",
+    "length": 294,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "new-waiyan2",
+    "name": "新外研七年級下冊",
+    "description": "新外研版七年級下冊",
+    "category": "青少年英語",
+    "tags": [
+      "外研版"
+    ],
+    "url": "Newwaiyan7-2.json",
+    "length": 305,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "waiyan2",
+    "name": "外研七年級下冊",
+    "description": "外研版七年級下冊",
+    "category": "青少年英語",
+    "tags": [
+      "外研版"
+    ],
+    "url": "WaiYanSheChuZhong_2_T.json",
+    "length": 438,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "waiyan3",
+    "name": "外研八年級上冊",
+    "description": "外研版八年級上冊",
+    "category": "青少年英語",
+    "tags": [
+      "外研版"
+    ],
+    "url": "WaiYanSheChuZhong_3_T.json",
+    "length": 320,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "waiyan4",
+    "name": "外研八年級下冊",
+    "description": "外研版八年級下冊",
+    "category": "青少年英語",
+    "tags": [
+      "外研版"
+    ],
+    "url": "WaiYanSheChuZhong_4_T.json",
+    "length": 266,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "waiyan5",
+    "name": "外研九年級上冊",
+    "description": "外研版九年級上冊",
+    "category": "青少年英語",
+    "tags": [
+      "外研版"
+    ],
+    "url": "WaiYanSheChuZhong_5_T.json",
+    "length": 381,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "waiyan6",
+    "name": "外研九年級下冊",
+    "description": "外研版九年級下冊",
+    "category": "青少年英語",
+    "tags": [
+      "外研版"
+    ],
+    "url": "WaiYanSheChuZhong_6_T.json",
+    "length": 128,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "waiyan7",
+    "name": "外研高中必修1",
+    "description": "外研高中必修1",
+    "category": "青少年英語",
+    "tags": [
+      "外研版"
+    ],
+    "url": "WaiYanSheGaoZhong_1_T.json",
+    "length": 411,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "waiyan8",
+    "name": "外研高中必修2",
+    "description": "外研高中必修2",
+    "category": "青少年英語",
+    "tags": [
+      "外研版"
+    ],
+    "url": "WaiYanSheGaoZhong_2_T.json",
+    "length": 272,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "waiyan9",
+    "name": "外研一年級上冊",
+    "description": "外研一年級上冊",
+    "category": "青少年英語",
+    "tags": [
+      "外研版"
+    ],
+    "url": "WaiYanSheChuZhong_1-Volume-up.json",
+    "length": 138,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "waiyan10",
+    "name": "外研一年級下冊",
+    "description": "外研一年級下冊",
+    "category": "青少年英語",
+    "tags": [
+      "外研版"
+    ],
+    "url": "WaiYanSheChuZhong_1-Volume-down.json",
+    "length": 118,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "waiyan11",
+    "name": "外研二年級上冊",
+    "description": "外研二年級上冊",
+    "category": "青少年英語",
+    "tags": [
+      "外研版"
+    ],
+    "url": "WaiYanSheChuZhong_2-Volume-top.json",
+    "length": 118,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "waiyan12",
+    "name": "外研二年級下冊",
+    "description": "外研二年級下冊",
+    "category": "青少年英語",
+    "tags": [
+      "外研版"
+    ],
+    "url": "WaiYanSheChuZhong_2-Volume-down.json",
+    "length": 110,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "waiyan13",
+    "name": "外研三年級上冊",
+    "description": "外研三年級上冊",
+    "category": "青少年英語",
+    "tags": [
+      "外研版"
+    ],
+    "url": "WaiYanSheChuZhong_3-Volume-top.json",
+    "length": 82,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "waiyan14",
+    "name": "外研三年級下冊",
+    "description": "外研三年級下冊",
+    "category": "青少年英語",
+    "tags": [
+      "外研版"
+    ],
+    "url": "WaiYanSheChuZhong_3-Volume-down.json",
+    "length": 106,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "waiyan15",
+    "name": "外研四年級上冊",
+    "description": "外研四年級上冊",
+    "category": "青少年英語",
+    "tags": [
+      "外研版"
+    ],
+    "url": "WaiYanSheChuZhong_4-Volume-top.json",
+    "length": 116,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "waiyan16",
+    "name": "外研四年級下冊",
+    "description": "外研四年級下冊",
+    "category": "青少年英語",
+    "tags": [
+      "外研版"
+    ],
+    "url": "WaiYanSheChuZhong_4-Volume-down.json",
+    "length": 78,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "waiyan17",
+    "name": "外研五年級上冊",
+    "description": "外研五年級上冊",
+    "category": "青少年英語",
+    "tags": [
+      "外研版"
+    ],
+    "url": "WaiYanSheChuZhong_5-Volume-top.json",
+    "length": 80,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "waiyan18",
+    "name": "外研五年級下冊",
+    "description": "外研五年級下冊",
+    "category": "青少年英語",
+    "tags": [
+      "外研版"
+    ],
+    "url": "WaiYanSheChuZhong_5-Volume-down.json",
+    "length": 72,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "waiyan19",
+    "name": "外研六年級上冊",
+    "description": "外研六年級上冊",
+    "category": "青少年英語",
+    "tags": [
+      "外研版"
+    ],
+    "url": "WaiYanSheChuZhong_6-Volume-top.json",
+    "length": 61,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "waiyan20",
+    "name": "外研六年級下冊",
+    "description": "外研六年級下冊",
+    "category": "青少年英語",
+    "tags": [
+      "外研版"
+    ],
+    "url": "WaiYanSheChuZhong_6-Volume-down.json",
+    "length": 91,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "waiyan3-1",
+    "name": "外研新起點三年級上冊",
+    "description": "外研新起點三年級上冊",
+    "category": "青少年英語",
+    "tags": [
+      "外研版"
+    ],
+    "url": "waiyan-xin-3-1.json",
+    "length": 134,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "waiyan3-2",
+    "name": "外研新起點三年級下冊",
+    "description": "外研新起點三年級下冊",
+    "category": "青少年英語",
+    "tags": [
+      "外研版"
+    ],
+    "url": "waiyan-xin-3-2.json",
+    "length": 156,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "waiyan4-1",
+    "name": "外研新起點四年級上冊",
+    "description": "外研新起點四年級上冊",
+    "category": "青少年英語",
+    "tags": [
+      "外研版"
+    ],
+    "url": "waiyan-xin-4-1.json",
+    "length": 144,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "waiyan4-2",
+    "name": "外研新起點四年級下冊",
+    "description": "外研新起點四年級下冊",
+    "category": "青少年英語",
+    "tags": [
+      "外研版"
+    ],
+    "url": "waiyan-xin-4-2.json",
+    "length": 134,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "waiyan5-1",
+    "name": "外研新起點五年級上冊",
+    "description": "外研新起點五年級上冊",
+    "category": "青少年英語",
+    "tags": [
+      "外研版"
+    ],
+    "url": "waiyan-xin-5-1.json",
+    "length": 152,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "waiyan5-2",
+    "name": "外研新起點五年級下冊",
+    "description": "外研新起點五年級下冊",
+    "category": "青少年英語",
+    "tags": [
+      "外研版"
+    ],
+    "url": "waiyan-xin-5-2.json",
+    "length": 147,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "waiyan6-1",
+    "name": "外研新起點六年級上冊",
+    "description": "外研新起點六年級上冊",
+    "category": "青少年英語",
+    "tags": [
+      "外研版"
+    ],
+    "url": "waiyan-xin-6-1.json",
+    "length": 83,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "waiyan6-2",
+    "name": "外研新起點六年級下冊",
+    "description": "外研新起點六年級下冊",
+    "category": "青少年英語",
+    "tags": [
+      "外研版"
+    ],
+    "url": "waiyan-xin-6-2.json",
+    "length": 105,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "shanghai-6-2word",
+    "name": "上海新教材六年級下",
+    "description": "上海新教材六年級下",
+    "category": "青少年英語",
+    "tags": [
+      "上海版"
+    ],
+    "url": "shanghai-6-2-word.json",
+    "length": 274,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "Yilin1",
+    "name": "高中必修1",
+    "description": "譯林版高中必修1",
+    "category": "青少年英語",
+    "tags": [
+      "譯林版"
+    ],
+    "url": "YiLin_1.json",
+    "length": 276,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "Yilin2",
+    "name": "高中必修2",
+    "description": "譯林版高中必修2",
+    "category": "青少年英語",
+    "tags": [
+      "譯林版"
+    ],
+    "url": "YiLin_2.json",
+    "length": 297,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "Yilin3",
+    "name": "高中必修3",
+    "description": "譯林版高中必修3",
+    "category": "青少年英語",
+    "tags": [
+      "譯林版"
+    ],
+    "url": "YiLin_3.json",
+    "length": 295,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "beishi1",
+    "name": "高中必修1",
+    "description": "北師大版高中必修1",
+    "category": "青少年英語",
+    "tags": [
+      "北師大"
+    ],
+    "url": "BeiShiGaoZhong_1_T.json",
+    "length": 226,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "beishi2",
+    "name": "高中必修2",
+    "description": "北師大版高中必修2",
+    "category": "青少年英語",
+    "tags": [
+      "北師大"
+    ],
+    "url": "BeiShiGaoZhong_2_T.json",
+    "length": 244,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "beishi3",
+    "name": "高中必修3",
+    "description": "北師大版高中必修3",
+    "category": "青少年英語",
+    "tags": [
+      "北師大"
+    ],
+    "url": "BeiShiGaoZhong_3_T.json",
+    "length": 295,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "beishi4",
+    "name": "高中必修4",
+    "description": "北師大版高中必修4",
+    "category": "青少年英語",
+    "tags": [
+      "北師大"
+    ],
+    "url": "BeiShiGaoZhong_4_T.json",
+    "length": 336,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "beishi5",
+    "name": "高中必修5",
+    "description": "北師大版高中必修5",
+    "category": "青少年英語",
+    "tags": [
+      "北師大"
+    ],
+    "url": "BeiShiGaoZhong_5_T.json",
+    "length": 327,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "beishi6",
+    "name": "高中選修6",
+    "description": "北師大版高中選修6",
+    "category": "青少年英語",
+    "tags": [
+      "北師大"
+    ],
+    "url": "BeiShiGaoZhong_6_T.json",
+    "length": 271,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "beishi7",
+    "name": "高中選修7",
+    "description": "北師大版高中選修7",
+    "category": "青少年英語",
+    "tags": [
+      "北師大"
+    ],
+    "url": "BeiShiGaoZhong_7_T.json",
+    "length": 334,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "beishi8",
+    "name": "高中選修8",
+    "description": "北師大版高中選修8",
+    "category": "青少年英語",
+    "tags": [
+      "北師大"
+    ],
+    "url": "BeiShiGaoZhong_8_T.json",
+    "length": 364,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "beishi9",
+    "name": "高中選修9",
+    "description": "北師大版高中選修9",
+    "category": "青少年英語",
+    "tags": [
+      "北師大"
+    ],
+    "url": "BeiShiGaoZhong_9_T.json",
+    "length": 299,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "beishi10",
+    "name": "高中選修10",
+    "description": "北師大版高中選修10",
+    "category": "青少年英語",
+    "tags": [
+      "北師大"
+    ],
+    "url": "BeiShiGaoZhong_10_T.json",
+    "length": 267,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "beishi11",
+    "name": "高中選修11",
+    "description": "北師大版高中選修11",
+    "category": "青少年英語",
+    "tags": [
+      "北師大"
+    ],
+    "url": "BeiShiGaoZhong_11_T.json",
+    "length": 330,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "jijiao1",
+    "name": "冀教 3 上",
+    "description": "冀教版三年級起點三年級上",
+    "category": "青少年英語",
+    "tags": [
+      "冀教版"
+    ],
+    "url": "jiJiao3-1.json",
+    "length": 75,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "jijiao2",
+    "name": "冀教 3 下",
+    "description": "冀教版三年級起點三年級下",
+    "category": "青少年英語",
+    "tags": [
+      "冀教版"
+    ],
+    "url": "jiJiao3-2.json",
+    "length": 76,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "jijiao3",
+    "name": "冀教 4 上",
+    "description": "冀教版三年級起點四年級上",
+    "category": "青少年英語",
+    "tags": [
+      "冀教版"
+    ],
+    "url": "jiJiao4-1.json",
+    "length": 78,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "jijiao4",
+    "name": "冀教 4 下",
+    "description": "冀教版三年級起點四年級下",
+    "category": "青少年英語",
+    "tags": [
+      "冀教版"
+    ],
+    "url": "jiJiao4-2.json",
+    "length": 84,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "jijiao5",
+    "name": "冀教 5 上",
+    "description": "冀教版三年級起點五年級上",
+    "category": "青少年英語",
+    "tags": [
+      "冀教版"
+    ],
+    "url": "jiJiao5-1.json",
+    "length": 79,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "jijiao6",
+    "name": "冀教 5 下",
+    "description": "冀教版三年級起點五年級下",
+    "category": "青少年英語",
+    "tags": [
+      "冀教版"
+    ],
+    "url": "jiJiao5-2.json",
+    "length": 96,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "jijiao7",
+    "name": "冀教 6 上",
+    "description": "冀教版三年級起點六年級上",
+    "category": "青少年英語",
+    "tags": [
+      "冀教版"
+    ],
+    "url": "jiJiao6-1.json",
+    "length": 66,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "jijiao8",
+    "name": "冀教 6 下",
+    "description": "冀教版三年級起點六年級下",
+    "category": "青少年英語",
+    "tags": [
+      "冀教版"
+    ],
+    "url": "jiJiao6-2.json",
+    "length": 51,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "jijiao9",
+    "name": "冀教 7 上",
+    "description": "冀教版三年級起點七年級上",
+    "category": "青少年英語",
+    "tags": [
+      "冀教版"
+    ],
+    "url": "jiJiao7-1.json",
+    "length": 561,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "jijiao10",
+    "name": "冀教 7 下",
+    "description": "冀教版三年級起點七年級下",
+    "category": "青少年英語",
+    "tags": [
+      "冀教版"
+    ],
+    "url": "jiJiao7-2.json",
+    "length": 514,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "jijiao11",
+    "name": "冀教 8 上",
+    "description": "冀教版三年級起點八年級上",
+    "category": "青少年英語",
+    "tags": [
+      "冀教版"
+    ],
+    "url": "jiJiao8-1.json",
+    "length": 420,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "jijiao12",
+    "name": "冀教 8 下",
+    "description": "冀教版三年級起點八年級下",
+    "category": "青少年英語",
+    "tags": [
+      "冀教版"
+    ],
+    "url": "jiJiao8-2.json",
+    "length": 487,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "jijiao13",
+    "name": "冀教 9 上",
+    "description": "冀教版三年級起點九年級全冊",
+    "category": "青少年英語",
+    "tags": [
+      "冀教版"
+    ],
+    "url": "jiJiao9.json",
+    "length": 636,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "BJJuniorHigh",
+    "name": "北京初中",
+    "description": "北京初中",
+    "category": "青少年英語",
+    "tags": [
+      "其他"
+    ],
+    "url": "beijing_junior_high_school.json",
+    "length": 1844,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "ReadingExplorer3",
+    "name": "Reading Explorer 3",
+    "description": "詞彙表來自Reading Explorer 3, Third Edition",
+    "category": "青少年英語",
+    "tags": [
+      "其他"
+    ],
+    "url": "ReadingExplorer3.json",
+    "length": 239,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "Cambridge_JOIN_IN",
+    "name": "劍橋小學英語 JOIN IN",
+    "description": "外研社和劍橋大學出版社依據《義務教育英語課程標準》要求聯合為我國小學生開發的一套英語教材。",
+    "category": "青少年英語",
+    "tags": [
+      "其他"
+    ],
+    "url": "Cambridge_JOIN_IN.json",
+    "length": 1350,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  }
+]

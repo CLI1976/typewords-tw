@@ -1,0 +1,184 @@
+[
+  {
+    "id": "cet4",
+    "name": "CET-4",
+    "description": "大學英語四級詞庫",
+    "category": "中國考試",
+    "tags": [
+      "大學英語"
+    ],
+    "url": "CET4_T.json",
+    "length": 2607,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "cet6",
+    "name": "CET-6",
+    "description": "大學英語六級詞庫",
+    "category": "中國考試",
+    "tags": [
+      "大學英語"
+    ],
+    "url": "CET6_T.json",
+    "length": 2345,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "level4",
+    "name": "專四",
+    "description": "英語專業四級詞庫",
+    "category": "中國考試",
+    "tags": [
+      "大學英語"
+    ],
+    "url": "Level4luan_2_T.json",
+    "length": 4025,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "level8",
+    "name": "專八",
+    "description": "英語專業八級詞庫",
+    "category": "中國考試",
+    "tags": [
+      "大學英語"
+    ],
+    "url": "Level8luan_2_T.json",
+    "length": 12197,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "kaoyan",
+    "name": "考研",
+    "description": "研究生英語入學考試詞庫",
+    "category": "中國考試",
+    "tags": [
+      "考研"
+    ],
+    "url": "KaoYan_3_T.json",
+    "length": 3728,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "toefl",
+    "name": "TOEFL",
+    "description": "托福考試常見詞",
+    "category": "國際考試",
+    "tags": [
+      "TOEFL"
+    ],
+    "url": "TOEFL_3_T.json",
+    "length": 4264,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "ielts",
+    "name": "IELTS",
+    "description": "雅思詞庫",
+    "category": "國際考試",
+    "tags": [
+      "IELTS"
+    ],
+    "url": "IELTS_3_T.json",
+    "length": 3575,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "gaokao3500",
+    "name": "高考 3500 詞",
+    "description": "高考常見詞 3500",
+    "category": "青少年英語",
+    "tags": [
+      "通用"
+    ],
+    "url": "GaoKao_3500.json",
+    "length": 3893,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "coder",
+    "name": "Coder Dict",
+    "description": "程式設計師常見單詞詞庫",
+    "category": "程式碼練習",
+    "tags": [
+      "通用"
+    ],
+    "url": "it-words.json",
+    "length": 1700,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "itVocabulary",
+    "name": "計算機專用英語",
+    "description": "大學計算機專業英語詞彙",
+    "category": "程式碼練習",
+    "tags": [
+      "通用"
+    ],
+    "url": "itVocabulary.json",
+    "length": 1665,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "nce-new-1",
+    "name": "新概念英語-1",
+    "description": "新概念英語第一冊",
+    "category": "青少年英語",
+    "tags": [
+      "新概念英語"
+    ],
+    "url": "nce-new-1.json",
+    "length": 908,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "nce-new-2",
+    "name": "新概念英語-2",
+    "description": "新概念英語第二冊",
+    "category": "青少年英語",
+    "tags": [
+      "新概念英語"
+    ],
+    "url": "nce-new-2.json",
+    "length": 862,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "nce-new-3",
+    "name": "新概念英語-3",
+    "description": "新概念英語第三冊",
+    "category": "青少年英語",
+    "tags": [
+      "新概念英語"
+    ],
+    "url": "nce-new-3.json",
+    "length": 1062,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  },
+  {
+    "id": "nce-new-4",
+    "name": "新概念英語-4",
+    "description": "新概念英語第四冊",
+    "category": "青少年英語",
+    "tags": [
+      "新概念英語"
+    ],
+    "url": "nce-new-4.json",
+    "length": 793,
+    "language": "en",
+    "translateLanguage": "zh-CN"
+  }
+]
