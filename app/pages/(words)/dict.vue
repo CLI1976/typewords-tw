@@ -329,23 +329,24 @@ function importData(e) {
       if (res.length) {
         let words = res
           .map(v => {
-            if (v['單詞']) {
+            const word = v['單詞'] ?? v['单词']
+            if (word) {
               let data = null
               try {
                 data = convertToWord({
                   id: nanoid(6),
-                  word: v['單詞'],
-                  phonetic0: v['音标①'] ?? '',
-                  phonetic1: v['音标②'] ?? '',
-                  trans: v['翻譯'] ?? '',
+                  word: word,
+                  phonetic0: v['音標①'] ?? v['音标①'] ?? '',
+                  phonetic1: v['音標②'] ?? v['音标②'] ?? '',
+                  trans: v['翻譯'] ?? v['翻译'] ?? '',
                   sentences: v['例句'] ?? '',
-                  phrases: v['短語'] ?? '',
-                  synos: v['近義詞'] ?? '',
-                  relWords: v['同根詞'] ?? '',
-                  etymology: v['詞源'] ?? '',
+                  phrases: v['短語'] ?? v['短语'] ?? '',
+                  synos: v['近義詞'] ?? v['近义词'] ?? '',
+                  relWords: v['同根詞'] ?? v['同根词'] ?? '',
+                  etymology: v['詞源'] ?? v['词源'] ?? '',
                 })
               } catch (e) {
-                console.error('匯入單詞報錯' + v['單詞'], e.message)
+                console.error('匯入單詞報錯' + word, e.message)
               }
               return data
             }
@@ -423,8 +424,8 @@ async function exportData() {
     let t = word2Str(v)
     return {
       單詞: t.word,
-      '音标①': t.phonetic0,
-      '音标②': t.phonetic1,
+      '音標①': t.phonetic0,
+      '音標②': t.phonetic1,
       翻譯: t.trans,
       例句: t.sentences,
       短語: t.phrases,
