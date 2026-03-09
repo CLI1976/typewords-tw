@@ -318,7 +318,7 @@ defineRender(() => {
           </div>
           <div>{$t('import_other_hint')}</div>
           <div class="mt-6">
-            {$t('template_download')}：<a href={`${ENV.RESOURCE_URL}/libs/单词导入模板.xlsx`}>{$t('word_import_template')}</a>
+            {$t('template_download')}：<a href={`${ENV.RESOURCE_URL}libs/單詞匯入模板.xlsx`}>{$t('word_import_template')}</a>
           </div>
           <div class="mt-4">
             <BaseButton
