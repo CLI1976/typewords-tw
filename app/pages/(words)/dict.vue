@@ -60,8 +60,8 @@ let wordForm = $ref(getDefaultFormWord())
 let wordFormRef = $ref()
 const wordRules = reactive({
   word: [
-    { required: true, message: '请输入单词', trigger: 'blur' },
-    { max: 100, message: '名称不能超过100个字符', trigger: 'blur' },
+    { required: true, message: '請輸入單詞', trigger: 'blur' },
+    { max: 100, message: '名稱不能超過100個字元', trigger: 'blur' },
   ],
 })
 let studyLoading = $ref(false)
@@ -102,7 +102,7 @@ async function onSubmitWord() {
           Object.assign(r, data)
           Toast.success('修改成功')
         } else {
-          Toast.success('修改失败，未找到单词')
+          Toast.success('修改失敗，未找到單詞')
           return
         }
       } else {
@@ -110,15 +110,15 @@ async function onSubmitWord() {
         data.checked = false
         let r = allList.find(v => v.word === wordForm.word)
         if (r) {
-          Toast.warning('已有相同名称单词！')
+          Toast.warning('已有相同名稱單詞！')
           return
         } else allList.push(data)
-        Toast.success('添加成功')
+        Toast.success('新增成功')
         wordForm = getDefaultFormWord()
       }
       syncDictInMyStudyList()
     } else {
-      Toast.warning('请填写完整')
+      Toast.warning('請填寫完整')
     }
   })
 }
@@ -146,7 +146,7 @@ async function batchDel(ids: string[]) {
     if (res.success) {
       tableRef.value.getData()
     } else {
-      return Toast.error(res.msg ?? '删除失败')
+      return Toast.error(res.msg ?? '刪除失敗')
     }
   }
 
@@ -294,7 +294,7 @@ async function startPractice(query = {}) {
 
 async function addMyStudyList() {
   if (!runtimeStore.editDict.words.length) {
-    return Toast.warning('没有单词可学习！')
+    return Toast.warning('沒有單詞可學習！')
   }
   if (!settingStore.disableShowPracticeSettingDialog) {
     showPracticeSettingDialog = true
@@ -322,85 +322,90 @@ function importData(e) {
   reader.onload = async function (s) {
     let data = s.target.result
     importLoading = true
-    const XLSX = await loadJsLib('XLSX', LIB_JS_URL.XLSX)
-    let workbook = XLSX.read(data, { type: 'binary' })
-    let res: any[] = XLSX.utils.sheet_to_json(workbook.Sheets['Sheet1'])
-    if (res.length) {
-      let words = res
-        .map(v => {
-          if (v['单词']) {
-            let data = null
-            try {
-              data = convertToWord({
-                id: nanoid(6),
-                word: v['单词'],
-                phonetic0: v['音标①'] ?? '',
-                phonetic1: v['音标②'] ?? '',
-                trans: v['翻译'] ?? '',
-                sentences: v['例句'] ?? '',
-                phrases: v['短语'] ?? '',
-                synos: v['近义词'] ?? '',
-                relWords: v['同根词'] ?? '',
-                etymology: v['词源'] ?? '',
-              })
-            } catch (e) {
-              console.error('导入单词报错' + v['单词'], e.message)
+    try {
+      const XLSX = await loadJsLib('XLSX', LIB_JS_URL.XLSX)
+      let workbook = XLSX.read(data, { type: 'binary' })
+      let res: any[] = XLSX.utils.sheet_to_json(workbook.Sheets['Sheet1'])
+      if (res.length) {
+        let words = res
+          .map(v => {
+            if (v['單詞']) {
+              let data = null
+              try {
+                data = convertToWord({
+                  id: nanoid(6),
+                  word: v['單詞'],
+                  phonetic0: v['音标①'] ?? '',
+                  phonetic1: v['音标②'] ?? '',
+                  trans: v['翻譯'] ?? '',
+                  sentences: v['例句'] ?? '',
+                  phrases: v['短語'] ?? '',
+                  synos: v['近義詞'] ?? '',
+                  relWords: v['同根詞'] ?? '',
+                  etymology: v['詞源'] ?? '',
+                })
+              } catch (e) {
+                console.error('匯入單詞報錯' + v['單詞'], e.message)
+              }
+              return data
             }
-            return data
-          }
-        })
-        .filter(v => v)
-      if (words.length) {
-        let repeat = []
-        let noRepeat = []
-        words.map((v: any) => {
-          let rIndex = runtimeStore.editDict.words.findIndex(s => s.word === v.word)
-          if (rIndex > -1) {
-            v.index = rIndex
-            repeat.push(v)
+          })
+          .filter(v => v)
+        if (words.length) {
+          let repeat = []
+          let noRepeat = []
+          words.map((v: any) => {
+            let rIndex = runtimeStore.editDict.words.findIndex(s => s.word === v.word)
+            if (rIndex > -1) {
+              v.index = rIndex
+              repeat.push(v)
+            } else {
+              noRepeat.push(v)
+            }
+          })
+
+          runtimeStore.editDict.words = runtimeStore.editDict.words.concat(noRepeat)
+
+          if (repeat.length) {
+            MessageBox.confirm(
+              '單詞"' + repeat.map(v => v.word).join(', ') + '" 已存在，是否覆盖原單詞？',
+              '檢測到重複單詞',
+              () => {
+                repeat.map(v => {
+                  runtimeStore.editDict.words[v.index] = v
+                  delete runtimeStore.editDict.words[v.index]['index']
+                })
+              },
+              null,
+              () => {
+                tableRef.value.closeImportDialog()
+                e.target.value = ''
+                importLoading = false
+                allList = runtimeStore.editDict.words
+                tableRef.value.getData()
+                syncDictInMyStudyList()
+                Toast.success('匯入成功！')
+              },
+              { t: $t }
+            )
           } else {
-            noRepeat.push(v)
+            tableRef.value.closeImportDialog()
+            e.target.value = ''
+            importLoading = false
+            allList = runtimeStore.editDict.words
+            tableRef.value.getData()
+            syncDictInMyStudyList()
+            Toast.success('匯入成功！')
           }
-        })
-
-        runtimeStore.editDict.words = runtimeStore.editDict.words.concat(noRepeat)
-
-        if (repeat.length) {
-          MessageBox.confirm(
-            '单词"' + repeat.map(v => v.word).join(', ') + '" 已存在，是否覆盖原单词？',
-            '检测到重复单词',
-            () => {
-              repeat.map(v => {
-                runtimeStore.editDict.words[v.index] = v
-                delete runtimeStore.editDict.words[v.index]['index']
-              })
-            },
-            null,
-            () => {
-              tableRef.value.closeImportDialog()
-              e.target.value = ''
-              importLoading = false
-              allList = runtimeStore.editDict.words
-              tableRef.value.getData()
-              syncDictInMyStudyList()
-              Toast.success('导入成功！')
-            },
-            { t: $t }
-          )
         } else {
-          tableRef.value.closeImportDialog()
-          e.target.value = ''
-          importLoading = false
-          allList = runtimeStore.editDict.words
-          tableRef.value.getData()
-          syncDictInMyStudyList()
-          Toast.success('导入成功！')
+          Toast.warning('匯入失敗！原因：沒有資料/未认别到数据')
         }
       } else {
-        Toast.warning('导入失败！原因：没有数据/未认别到数据')
+        Toast.warning('匯入失敗！原因：沒有資料')
       }
-    } else {
-      Toast.warning('导入失败！原因：没有数据')
+    } catch (error) {
+      console.error('匯入失敗', error)
+      Toast.error('匯入失敗，請稍後再試')
     }
     e.target.value = ''
     importLoading = false
@@ -417,15 +422,15 @@ async function exportData() {
   let sheetData = list.map(v => {
     let t = word2Str(v)
     return {
-      单词: t.word,
+      單詞: t.word,
       '音标①': t.phonetic0,
       '音标②': t.phonetic1,
-      翻译: t.trans,
+      翻譯: t.trans,
       例句: t.sentences,
-      短语: t.phrases,
-      近义词: t.synos,
-      同根词: t.relWords,
-      词源: t.etymology,
+      短語: t.phrases,
+      近義詞: t.synos,
+      同根詞: t.relWords,
+      詞源: t.etymology,
     }
   })
   wb.Sheets['Sheet1'] = XLSX.utils.json_to_sheet(sheetData)
@@ -495,7 +500,7 @@ watch(
 
 const dict = $computed(() => runtimeStore.editDict)
 
-//获取本地单词列表
+//获取本地單詞列表
 function getLocalList({ pageNo, pageSize, searchKey }) {
   let list = allList
   let total = allList.length
@@ -627,11 +632,11 @@ defineRender(() => {
                       prefix: () => val.checkbox(val.item),
                       suffix: () => (
                         <div class="flex flex-col">
-                          <BaseIcon class="option-icon" onClick={() => editWord(val.item)} title="编辑">
+                          <BaseIcon class="option-icon" onClick={() => editWord(val.item)} title="編輯">
                             <IconFluentTextEditStyle20Regular />
                           </BaseIcon>
-                          <PopConfirm title="确认删除？" onConfirm={() => batchDel([val.item.id])}>
-                            <BaseIcon class="option-icon" title="删除">
+                          <PopConfirm title="確認刪除？" onConfirm={() => batchDel([val.item.id])}>
+                            <BaseIcon class="option-icon" title="刪除">
                               <DeleteIcon />
                             </BaseIcon>
                           </PopConfirm>
@@ -652,20 +657,20 @@ defineRender(() => {
                   model={wordForm}
                   label-width="7rem"
                 >
-                  <FormItem label="单词" prop="word">
+                  <FormItem label="單詞" prop="word">
                     <BaseInput modelValue={wordForm.word} onUpdate:modelValue={e => (wordForm.word = e)}></BaseInput>
                   </FormItem>
-                  <FormItem label="英音音标">
+                  <FormItem label="英音音標">
                     <BaseInput modelValue={wordForm.phonetic0} onUpdate:modelValue={e => (wordForm.phonetic0 = e)} />
                   </FormItem>
-                  <FormItem label="美音音标">
+                  <FormItem label="美音音標">
                     <BaseInput modelValue={wordForm.phonetic1} onUpdate:modelValue={e => (wordForm.phonetic1 = e)} />
                   </FormItem>
-                  <FormItem label="翻译">
+                  <FormItem label="翻譯">
                     <Textarea
                       modelValue={wordForm.trans}
                       onUpdate:modelValue={e => (wordForm.trans = e)}
-                      placeholder="一行一个翻译，前面词性，后面内容（如n.取消）；多个翻译请换行"
+                      placeholder="一行一個翻譯，前面詞性，後面內容（如n.取消）；多個翻譯請換行"
                       autosize={{ minRows: 6, maxRows: 10 }}
                     />
                   </FormItem>
@@ -673,39 +678,39 @@ defineRender(() => {
                     <Textarea
                       modelValue={wordForm.sentences}
                       onUpdate:modelValue={e => (wordForm.sentences = e)}
-                      placeholder="一行原文，一行译文；多个请换两行"
+                      placeholder="一行原文，一行譯文；多個請換兩行"
                       autosize={{ minRows: 6, maxRows: 10 }}
                     />
                   </FormItem>
-                  <FormItem label="短语">
+                  <FormItem label="短語">
                     <Textarea
                       modelValue={wordForm.phrases}
                       onUpdate:modelValue={e => (wordForm.phrases = e)}
-                      placeholder="一行原文，一行译文；多个请换两行"
+                      placeholder="一行原文，一行譯文；多個請換兩行"
                       autosize={{ minRows: 6, maxRows: 10 }}
                     />
                   </FormItem>
-                  <FormItem label="同义词">
+                  <FormItem label="同義詞">
                     <Textarea
                       modelValue={wordForm.synos}
                       onUpdate:modelValue={e => (wordForm.synos = e)}
-                      placeholder="请参考已有单词格式"
+                      placeholder="請參考已有單詞格式"
                       autosize={{ minRows: 6, maxRows: 20 }}
                     />
                   </FormItem>
-                  <FormItem label="同根词">
+                  <FormItem label="同根詞">
                     <Textarea
                       modelValue={wordForm.relWords}
                       onUpdate:modelValue={e => (wordForm.relWords = e)}
-                      placeholder="请参考已有单词格式"
+                      placeholder="請參考已有單詞格式"
                       autosize={{ minRows: 6, maxRows: 20 }}
                     />
                   </FormItem>
-                  <FormItem label="词源">
+                  <FormItem label="詞源">
                     <Textarea
                       modelValue={wordForm.etymology}
                       onUpdate:modelValue={e => (wordForm.etymology = e)}
-                      placeholder="请参考已有单词格式"
+                      placeholder="請參考已有單詞格式"
                       autosize={{ minRows: 6, maxRows: 10 }}
                     />
                   </FormItem>
